@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <style>
+        div{
+            border: 1px solid blue;
+            border-top-left-radius:50px;
+            border-top-right-radius:50px;
+            margin: 0px auto;
+            width: 50em;
+
+        }
+
+        div p{
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            line-height: 2;
+            color: blue;
+            text-shadow: blue 0.1em 0.1em 0.2em;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        figure{
+            border: 1px solid blue;
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            float: left;
+        }
+
+        figcaption{
+            text-align: center;
+            font-family: 'kanit',sans-serif;
+            line-height: 2;
+            color: blue;
+            text-shadow: blue 0.1em 0.1em 0.2em;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        img{
+            object-fit: fill;
+        }
+
+        img{
+            transition: opacity 1s;
+            width: 100%;
+            height: 90%;
+        }
+
+        figure img{
+            opacity: 0;
+        }
+
+        figure:hover{
+            width: 200px;
+            height: 200px;
+        }
+
+        figure:hover img{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Linea 1</p>
+        <p>Linea 2</p>
+    </div>
+
+    <figure>
+        <figcaption>Tigre</figcaption>
+        <img src="img/tigre.svg" alt="tigre">
+    </figure>
+    <figure>
+        <figcaption>Circulo</figcaption>
+        <img src="img/circulo.svg" alt="circulo">
+    </figure>
+    <figure>
+        <figcaption>Esto es una imagen</figcaption>
+        <img src="https://static.wikia.nocookie.net/harrypotter/images/0/06/Hufflepuff_ClearBG.png/revision/latest?cb=20161020182518" alt="hufflepuff">
+    </figure>
+    <figure>
+        <figcaption>Esto es una imagen</figcaption>
+        <img src="https://i.pinimg.com/474x/6a/90/84/6a908465802589a7537497b90e4c8757.jpg" alt="imperio">
+    </figure>
+</body>
+</html>
