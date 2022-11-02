@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: pink;
+    position: fixed;
+    top: 0;
+
+}
+
+section{
+    margin-top: 20%;
+}
+
+footer{
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+}

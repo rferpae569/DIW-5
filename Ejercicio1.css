@@ -1,0 +1,59 @@
+div{
+    border: 1px solid blue;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    margin: 0px auto;
+    width: 50em;
+
+}
+
+div p{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    line-height: 2;
+    color: blue;
+    text-shadow: blue 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+figure{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    float: left;
+}
+
+figcaption{
+    text-align: center;
+    font-family: 'kanit',sans-serif;
+    line-height: 2;
+    color: blue;
+    text-shadow: blue 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+img{
+    object-fit: fill;
+}
+
+img{
+    transition: opacity 1s;
+    width: 100%;
+    height: 90%;
+}
+
+figure img{
+    opacity: 0;
+}
+
+figure:hover{
+    width: 200px;
+    height: 200px;
+}
+
+figure:hover img{
+    opacity: 1;
+}
